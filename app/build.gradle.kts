@@ -67,14 +67,4 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-//    implementation("androidx.webkit:webkit:1.8.0")
-//    implementation ("com.google.accompanist:accompanist-webview:0.24.7-alpha")
-//    implementation ("androidx.compose.ui:ui:1.6.7")
-//    implementation ("androidx.compose.ui:ui-tooling:1.6.7")
-//    implementation ("androidx.compose.ui:ui-tooling-preview:1.6.7")
-//    implementation ("androidx.compose.foundation:foundation:1.6.7")
-//    implementation ("androidx.compose.material:material:1.6.7")
-
-
-
 }
