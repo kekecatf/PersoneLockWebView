@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             WebViewTheme {
                 Surface(color = MaterialTheme.colorScheme.background) {
-                    WebViewScreen("https://trackingprojectwebsite.azurewebsites.net/")
+                    WebViewScreen()
                 }
             }
         }
@@ -45,7 +45,8 @@ class MainActivity : ComponentActivity() {
 
 @SuppressLint("SetJavaScriptEnabled")
 @Composable
-fun WebViewScreen(url: String) {
+fun WebViewScreen() {
+    var url:String = "https://trackingprojectwebsite.azurewebsites.net/"
     Box(modifier = Modifier.fillMaxSize()) {
         AndroidView(factory = { context ->
             WebView(context).apply {
